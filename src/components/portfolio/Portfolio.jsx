@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio-11.jpg'
-import IMG2 from '../../assets/portfolio-1.jpg';
-import IMG3 from '../../assets/portfolio-3.jpg';
+import IMG1 from '../../assets/guess-number.png'
+import IMG2 from '../../assets/search-employee.png';
+import IMG3 from '../../assets/card-component.png';
 import IMG4 from '../../assets/portfolio-4.jpg';
 import IMG5 from '../../assets/portfolio-2.jpg';
 import IMG6 from '../../assets/portfolio-6.jpg';
@@ -11,31 +11,31 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency',
-    github: 'http://github.com',
-    demo: 'https://dribbble.com/shots/20335807-Good-Vibes/attachments/15392598?mode=media'
+    title: 'Guess Number',
+    github: 'https://github.com/Diksha0608/guess_number',
+    demo: 'https://diksha-guessnumber-game.netlify.app/'
   },
 
   {
     id: 2,
     image: IMG2,
-    title: 'Crypto Currency',
-    github: 'http://github.com',
-    demo: 'https://dribbble.com/shots/20335807-Good-Vibes/attachments/15392598?mode=media'
+    title: 'Search Empoyee List',
+    github: 'https://github.com/Diksha0608/Search-Employee',
+    demo: 'https://dropdown-list.netlify.app/'
   },
 
   {
     id: 3,
     image: IMG3,
-    title: 'Crypto Currency',
+    title: 'Card Cpmponent',
     github: 'http://github.com',
-    demo: 'https://dribbble.com/shots/20335807-Good-Vibes/attachments/15392598?mode=media'
+    demo: 'https://card-comp1.netlify.app/'
   },
 
   {
     id: 4,
     image: IMG4,
-    title: 'Crypto Currency',
+    title: 'Card component',
     github: 'http://github.com',
     demo: 'https://dribbble.com/shots/20335807-Good-Vibes/attachments/15392598?mode=media'
   },
