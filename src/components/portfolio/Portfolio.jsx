@@ -35,9 +35,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'Card component',
-    github: 'http://github.com',
-    demo: 'https://dribbble.com/shots/20335807-Good-Vibes/attachments/15392598?mode=media'
+    title: 'Frontend-Mentor',
+    github: 'https://github.com/Diksha0608/frontend-mentor',
+    demo: 'https://frontend-mentorr.netlify.app/'
   },
 
   {
