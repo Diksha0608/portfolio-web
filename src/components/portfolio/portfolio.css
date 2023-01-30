@@ -21,10 +21,20 @@
     overflow: hidden;
     width: 20vw;
     height: 40vh;
+   
+   
 }
 .portfolio__item-image img{
     width: 100%;
     height: 100%;
+    transition-property: width height;
+    transition-duration: 1s;
+}
+
+.portfolio__item-image img:hover{
+   
+    width: 22vw;
+    height: 42vh;
 }
 .portfolio__item h3{
     margin: 1.2rem 0 2rem;

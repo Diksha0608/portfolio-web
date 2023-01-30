@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/guess-number.png'
-import IMG2 from '../../assets/search-employee.png';
-import IMG3 from '../../assets/card-component.png';
-import IMG4 from '../../assets/portfolio-4.jpg';
-import IMG5 from '../../assets/portfolio-2.jpg';
-import IMG6 from '../../assets/portfolio-6.jpg';
+import IMG2 from '../../assets/food-factory-app.png';
+import IMG3 from '../../assets/insta-social.png';
+import IMG4 from '../../assets/flipkart_img.png';
+import IMG5 from '../../assets/frontend-mentor.png';
+import IMG6 from '../../assets/pig-img.png';
 
 const data = [
   {
@@ -14,46 +14,49 @@ const data = [
     title: 'Guess Number',
     github: 'https://github.com/Diksha0608/guess_number',
     demo: 'https://diksha-guessnumber-game.netlify.app/'
+    
   },
 
   {
     id: 2,
     image: IMG2,
-    title: 'Search Empoyee List',
-    github: 'https://github.com/Diksha0608/Search-Employee',
-    demo: 'https://dropdown-list.netlify.app/'
+    title: 'Food Factory App',
+    github: 'https://github.com/Diksha0608/Food-Factory',
+    demo: 'https://foodfactory-app.netlify.app/'
   },
 
   {
     id: 3,
     image: IMG3,
-    title: 'Card Cpmponent',
-    github: 'http://github.com',
-    demo: 'https://card-comp1.netlify.app/'
+    title: 'InstaSocial',
+    github: 'https://github.com/Diksha0608/insta-social',
+    demo: 'https://social-insta.netlify.app/'
   },
 
   {
     id: 4,
     image: IMG4,
-    title: 'Frontend-Mentor',
-    github: 'https://github.com/Diksha0608/frontend-mentor',
-    demo: 'https://frontend-mentorr.netlify.app/'
+    title: 'E-Commerce-App',
+    github: 'https://github.com/Diksha0608/Onlineshoping',
+    demo: 'https://onlineshopping-app.netlify.app/'
+ 
   },
 
   {
     id: 5,
     image: IMG5,
-    title: 'Crypto Currency',
-    github: 'http://github.com',
-    demo: 'https://dribbble.com/shots/20335807-Good-Vibes/attachments/15392598?mode=media'
+       title: 'Frontend-Mentor',
+    github: 'https://github.com/Diksha0608/frontend-mentor',
+    demo: 'https://frontend-mentorr.netlify.app/'
+
   },
 
   {
     id: 6,
     image: IMG6,
-    title: 'Crypto Currency',
-    github: 'http://github.com',
-    demo: 'https://dribbble.com/shots/20335807-Good-Vibes/attachments/15392598?mode=media'
+    title: 'Pig Game',
+    github: 'https://github.com/Diksha0608/pig-game',
+    demo: 'https://game-js-app.netlify.app/'
   }
 ]
 

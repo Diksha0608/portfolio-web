@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/woman-p.png'
+import ME from '../../assets/pic4.png'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -30,7 +30,7 @@ const About = () => {
   <article className="about__card">
     <FiUsers className='about__icon'/>
     <h5>Clients</h5>
-    <small>20+ Worldwide</small>
+    <small>2+ India</small>
   </article>
 
   <article className="about__card">
@@ -41,7 +41,8 @@ const About = () => {
 </div>
 
 
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum eaque minima eum tempora, repudiandae saepe asperiores, corporis, numquam commodi quidem quisquam quod excepturi deleniti laboriosam in enim. Magni, laboriosam magnam.</p>
+<p>I have been working as a React Developer for the past one year and have gained a
+lot of experience in the field. In addition to my React development skills, I am also an expert in HTML5, CSS3, and JavaScript. I have a deep understanding of the latest web development trends and technologies. </p>
 
 <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
