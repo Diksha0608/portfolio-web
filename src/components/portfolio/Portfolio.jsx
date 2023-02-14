@@ -1,21 +1,22 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/guess-number.png'
+import IMG1 from '../../assets/youtube-clone.png'
 import IMG2 from '../../assets/food-factory-app.png';
 import IMG3 from '../../assets/insta-social.png';
 import IMG4 from '../../assets/flipkart_img.png';
-import IMG5 from '../../assets/frontend-mentor.png';
+import IMG5 from '../../assets/guess-number.png';
 import IMG6 from '../../assets/pig-img.png';
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Guess Number',
-    github: 'https://github.com/Diksha0608/guess_number',
-    demo: 'https://diksha-guessnumber-game.netlify.app/'
+    title: 'Youtube CLone',
+    github: 'https://github.com/Diksha0608/Video-clone',
+    demo: 'https://youtube-clone0608.netlify.app/'
     
   },
+  
 
   {
     id: 2,
@@ -45,9 +46,9 @@ const data = [
   {
     id: 5,
     image: IMG5,
-       title: 'Frontend-Mentor',
-    github: 'https://github.com/Diksha0608/frontend-mentor',
-    demo: 'https://frontend-mentorr.netlify.app/'
+    title: 'Guess Number',
+    github: 'https://github.com/Diksha0608/guess_number',
+    demo: 'https://diksha-guessnumber-game.netlify.app/'
 
   },
 
