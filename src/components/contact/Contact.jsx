@@ -38,20 +38,20 @@ const sendEmail = (e) => {
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
-            <h5>dikshadishu1802@gmail.com</h5>
+            <h5>Facebook</h5>
             <a href="https://m.me/dikshamehta.mummypapa" target='_blank'>Send a message</a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
-            <h4>Email</h4>
-            <h5>+31623344944</h5>
+            <h4>Whatsapp</h4>
+            <h5>+31623048302</h5>
             <a href="https://api.whatsapp.com/send?phone=+917320829249" target='_blank'>Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
             <input type="text" name='name' placeholder='Enter Your Full Name' required />
-            <input type="text" name='email' placeholder='Your Email' required />
+            <input type="text" name='email' placeholder='Your Email id' required />
             <textarea name="message" id="" rows="10" placeholder='Your Message'> </textarea>
             <button type='submit' className='btn btn-primary'>Send Message</button>
           </form>
