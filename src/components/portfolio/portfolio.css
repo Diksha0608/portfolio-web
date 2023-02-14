@@ -57,8 +57,13 @@
               }
               .portfolio__item-image{
                 width: 38vw;
-                height: 20vh;
+                height: 44vh;
               }
+              .portfolio__item-image img:hover{
+   
+                width: 40vw;
+                height: 45vh;
+            }
                 
              }   
              
@@ -71,8 +76,12 @@
                             gap: 1rem;
                         }
                         .portfolio__item-image{
-                            width: 79vw;
-                            height: 40vh;
+                            width: 85vw;
+                            height: 44vh;
                           }
+                          .portfolio__item-image img:hover{
+                            width: 87vw;
+                            height: 45vh;
+                        }
 
                        }
