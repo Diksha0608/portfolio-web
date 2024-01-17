@@ -114,11 +114,11 @@ header{
     .me{
         background:linear-gradient(var(--color-primary), transparent ) ;
         width: 15rem;
-        height: 24rem;
+        height: 20rem;
         position: absolute;
         left: calc(59% - 10rem);
         margin-top: 1rem;
-        padding: 0rem 2rem 12rem 1.5rem;
+        padding: 0rem 2rem 2rem 0.5rem;
         border-radius: 12rem 12rem 0 0 ;
         /* overflow: hidden;   */
     }
