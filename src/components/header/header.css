@@ -1,7 +1,7 @@
 header{
     height: 100vh;
-    padding-top: 3rem;
-    /* overflow: hidden; */
+    padding-top: 7rem;
+    overflow: hidden;
 }
 
 .container__header{
@@ -14,7 +14,7 @@ header{
 /* CTA */
 
 .cta{
-    margin-top: 2.4rem;
+    margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -42,18 +42,20 @@ header{
 
 .me {
     background:linear-gradient(var(--color-primary), transparent ) ;
-    width: 20rem;
-    height: 20rem;
+    width: 17rem;
+    height: 29rem;
     position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    /* padding: 1rem 2rem 9rem 1.5rem; */
+    left: calc(54% - 11rem);
+    margin-top: 1rem;
+    padding: 0rem 2rem 12rem 1.5rem;
     border-radius: 12rem 12rem 0 0 ;
     overflow: hidden;
 }
 .me img{
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
+    width: fit-content;
+    height: max-content;
 }
 
 /* ScrollDown */
@@ -99,7 +101,7 @@ header{
 /* For Small Devices */
 @media screen and (max-width:600px) {
     header{
-        height:85vh;
+        height:100vh;
     }
     .container__header{
         text-align: center;
@@ -108,6 +110,21 @@ header{
     }
     .header__social .scroll__down{
         display: none;
+    }
+    .me{
+        background:linear-gradient(var(--color-primary), transparent ) ;
+        width: 15rem;
+        height: 24rem;
+        position: absolute;
+        left: calc(59% - 10rem);
+        margin-top: 1rem;
+        padding: 0rem 2rem 12rem 1.5rem;
+        border-radius: 12rem 12rem 0 0 ;
+        /* overflow: hidden;   */
+    }
+    .me img{
+        width: max-content;
+        height: max-content;
     }
  
     .scroll__down{
@@ -119,6 +136,7 @@ header{
         font-size: 0.9rem;
     }
  }
+
 
 
 
